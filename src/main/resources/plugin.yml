@@ -1,0 +1,5 @@
+name: items
+version: 0.1
+main: fr.nymeria.items.core.Main
+api-version: 1.19
+authors: [ julfit, galaglow ]
