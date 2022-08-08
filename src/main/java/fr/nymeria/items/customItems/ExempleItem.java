@@ -2,6 +2,7 @@ package fr.nymeria.items.customItems;
 
 import fr.nymeria.items.Modifier.AttributeHelper;
 import org.bukkit.Material;
+import org.bukkit.entity.Player;
 import org.bukkit.inventory.EquipmentSlot;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
@@ -42,4 +43,25 @@ public class ExempleItem implements CustomItem{
     public void setCount(int count) {
         this.count = count;
     }
+
+    @Override
+    public void onRightClick(Player player) {
+
+    }
+
+    @Override
+    public void onLeftClick(Player player) {
+
+    }
+
+    @Override
+    public void openGUI(Player player) {
+
+    }
+
+    @Override
+    public void onUse(Player player) {
+
+    }
+    
 }
