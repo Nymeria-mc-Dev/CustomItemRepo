@@ -31,7 +31,7 @@ public class ExempleItem implements CustomItem{
 
     @Override
     public void setDurability(int durability) {
-        this.durability = durability;
+        this.durability = durability - 1;
     }
 
     @Override
